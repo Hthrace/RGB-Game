@@ -330,7 +330,7 @@ function createLifes(num) {
     lifeCreate = document.createElement("img");
     lifeCreate.className = "imgHeart";
     document.querySelector("#lifeContainer").appendChild(lifeCreate);
-    lifeCreate.setAttribute("src", "img/life.png");
+    lifeCreate.src = "img/life.png";
   }
 }
 
@@ -345,6 +345,6 @@ function clearPreviousLifes() {
 //Function hides custom input values till custom button calls for it.
 function displayCustomInput(){
   inputStyle.forEach(function(content){
-    content.classList.toggle("contentHide")
+    content.classList.toggle("contentHide");
   });
 }
