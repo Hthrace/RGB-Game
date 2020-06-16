@@ -600,3 +600,126 @@
     width: 15%;
   }
 }
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      .overlay {
+        overflow-y: auto;
+      }
+    
+      .overlay a {
+        font-size: 20px;
+      }
+    
+      .overlay .closebtn {
+        position: absolute;
+        top: 57%;
+        right: 33%;
+        font-size: 25px;
+      }
+    
+      .square {
+        width: 29%;
+        background: purple;
+        padding-bottom: 30%;
+        float: left;
+        margin: 1%;
+        border: #232323 solid;
+        border-radius: 100%;
+      }
+    
+      .helpBox {
+        top: 10%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        width: 70%;
+        left: 15%;
+        float: right;
+        margin-top: 2rem;
+      }
+    
+      #closeHelpBTN {
+        position: absolute;
+        top: 100%;
+        right: 23%;
+        width: 55%;
+        font-size: 25px;
+        margin-top: 3rem;
+      }
+    
+      .overlay .gameMenu {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        transition: 0.3s;
+        top: 10%;
+        width: 50%;
+        left: 22%;
+        position: relative;
+      }
+    
+      .currentMode {
+        color: green;
+        border: green solid;
+        height: 20px;
+        left: 0.1rem;
+        font-size: 30px;
+        position: relative;
+      }
+    
+      .overlayContent {
+        position: absolute;
+        top: 15%;
+        width: 80%;
+        left: 10%;
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      #imgWin {
+        position: absolute;
+        top: 20%;
+        left: 17%;
+        width: 60%;
+        height: 40%;
+      }
+    
+      #imgPlayAgain {
+        position: absolute;
+        top: 70%;
+        left: 32%;
+        font-size: 25px;
+      }
+    
+      #imgLose {
+        position: absolute;
+        top: 16%;
+        left: 14%;
+        width: 70%;
+        height: 50%;
+      }
+    
+      .imgHeart {
+        width: 4%;
+        height: 10%;
+        margin-bottom: 1rem;
+      }
+    
+      .inputStyle {
+        padding-top: 0.1rem;
+        color: white;
+      }
+    
+      #customLifes {
+        width: 15%;
+      }
+    
+      #customNum {
+        width: 15%;
+      }
+
+    }
