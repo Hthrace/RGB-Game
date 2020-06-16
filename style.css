@@ -1,0 +1,170 @@
+body {
+  background-color: #232323;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1%;
+  border: #232323 solid;
+  border-radius: 100%;
+}
+
+#containerColors {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#gameName {
+  color: white;
+}
+
+#rgbCode {
+  color: white;
+}
+.menuStyle {
+  background-color: #4d80bc;
+  padding-bottom: 0.2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  border: #232323 solid;
+}
+.menuBox {
+  text-align: center;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlayContent {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay .gameMenu {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay .gameMenu:hover{
+  color: white;
+}
+
+.currentMode {
+  color: green;
+  border: green solid;
+  width: 10%;
+  left: 44%;
+  font-size: 30px;
+  position: relative;
+  
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 65%;
+  right: 46%;
+  font-size: 25px;
+}
+
+.inputStyle{
+color: white;
+}
+
+.contentHide{
+  visibility: collapse;
+}
+
+.helpContainer{
+  display: flex;
+}
+
+.helpBox{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  left: 25%;
+  float: right;
+  margin-top: 8rem;
+}
+
+#rgbLink{
+  font-size: 20px;
+}
+
+#rgbLink:hover {
+ color: blue;
+ font-size: 25px;
+}
+
+#closeHelpBTN{
+  position: absolute;
+  top: 100%;
+  right: 43%;
+  width: 15%;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+#imgLose{
+  position: absolute;
+  top: 22%;
+  left: 37%;
+  width: 25%;
+  height: 50%;
+}
+
+#imgWin{
+  position: absolute;
+  top: 22%;
+  left: 37%;
+  width: 25%;
+  height: 50%;
+}
+
+.imgVisible{
+ visibility: collapse;
+}
+
+#imgPlayAgain{
+  position: absolute;
+  top: 76%;
+  left: 46%;
+  font-size: 25px;
+}
+
+.imgHeart{
+  width: 1%;
+  height: 10%;
+  margin-bottom: 1rem;
+}
+
+#customLifes {
+  width: 5%;
+}
+
+#customNum {
+  width: 5%;
+}
+
+

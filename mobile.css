@@ -1,0 +1,602 @@
+/*Kindle Fire HDX*/
+@media screen and (max-width: 800px) and (min-width: 771px) {
+    .overlay {
+        overflow-y: auto;
+      }
+    
+      .overlay a {
+        font-size: 20px;
+      }
+    
+      .overlay .closebtn {
+        position: absolute;
+        top: 39%;
+        right: 40%;
+        font-size: 25px;
+      }
+    
+      .square {
+        width: 29%;
+        background: purple;
+        padding-bottom: 30%;
+        float: left;
+        margin: 1%;
+        border: #232323 solid;
+        border-radius: 100%;
+      }
+    
+      .helpBox {
+        top: 20%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 70%;
+        left: 15%;
+        float: right;
+        margin-top: 2rem;
+      }
+    
+      #closeHelpBTN {
+        position: absolute;
+        top: 100%;
+        right: 23%;
+        width: 55%;
+        font-size: 25px;
+        margin-top: 3rem;
+      }
+    
+      .overlay .gameMenu {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        transition: 0.3s;
+        top: 10%;
+        width: 40%;
+        left: 30%;
+        position: relative;
+      }
+    
+      .currentMode {
+        color: green;
+        border: green solid;
+        height: 20px;
+        left: 0.1rem;
+        font-size: 30px;
+        position: relative;
+      }
+    
+      .overlayContent {
+        position: absolute;
+        top: 15%;
+        width: 80%;
+        left: 10%;
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      #imgWin {
+        position: absolute;
+        top: 25%;
+        left: 22%;
+        width: 50%;
+        height: 40%;
+      }
+    
+      #imgPlayAgain {
+        position: absolute;
+        top: 70%;
+        left: 39%;
+        font-size: 25px;
+      }
+    
+      #imgLose {
+        position: absolute;
+        top: 16%;
+        left: 14%;
+        width: 70%;
+        height: 50%;
+      }
+    
+      .imgHeart {
+        width: 4%;
+        height: 10%;
+        margin-bottom: 1rem;
+      }
+    
+      .inputStyle {
+        padding-top: 0.1rem;
+        color: white;
+      }
+    
+      #customLifes {
+        width: 15%;
+      }
+    
+      #customNum {
+        width: 15%;
+      }
+}
+
+/*Pixel2, Pixel2 XL, Galaxy9, iPhone6/7/8 Plus iOS11, iPhone XR iOS12, iPhone XS Max iOS12*/
+@media screen and (max-width: 450px) and (min-width: 380px) {
+    .overlay {
+        overflow-y: auto;
+      }
+    
+      .overlay a {
+        font-size: 20px;
+      }
+    
+      .overlay .closebtn {
+        position: absolute;
+        top: 57%;
+        right: 33%;
+        font-size: 25px;
+      }
+    
+      .square {
+        width: 29%;
+        background: purple;
+        padding-bottom: 30%;
+        float: left;
+        margin: 1%;
+        border: #232323 solid;
+        border-radius: 100%;
+      }
+    
+      .helpBox {
+        top: 10%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        width: 70%;
+        left: 15%;
+        float: right;
+        margin-top: 2rem;
+      }
+    
+      #closeHelpBTN {
+        position: absolute;
+        top: 100%;
+        right: 23%;
+        width: 55%;
+        font-size: 25px;
+        margin-top: 3rem;
+      }
+    
+      .overlay .gameMenu {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        transition: 0.3s;
+        top: 10%;
+        width: 50%;
+        left: 22%;
+        position: relative;
+      }
+    
+      .currentMode {
+        color: green;
+        border: green solid;
+        height: 20px;
+        left: 0.1rem;
+        font-size: 30px;
+        position: relative;
+      }
+    
+      .overlayContent {
+        position: absolute;
+        top: 15%;
+        width: 80%;
+        left: 10%;
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      #imgWin {
+        position: absolute;
+        top: 20%;
+        left: 17%;
+        width: 60%;
+        height: 40%;
+      }
+    
+      #imgPlayAgain {
+        position: absolute;
+        top: 70%;
+        left: 32%;
+        font-size: 25px;
+      }
+    
+      #imgLose {
+        position: absolute;
+        top: 16%;
+        left: 14%;
+        width: 70%;
+        height: 50%;
+      }
+    
+      .imgHeart {
+        width: 4%;
+        height: 10%;
+        margin-bottom: 1rem;
+      }
+    
+      .inputStyle {
+        padding-top: 0.1rem;
+        color: white;
+      }
+    
+      #customLifes {
+        width: 15%;
+      }
+    
+      #customNum {
+        width: 15%;
+      }
+}
+
+/*Ipad*/
+@media screen and (max-width: 770px) and (min-width: 451px) {
+    .overlay {
+        overflow-y: auto;
+      }
+    
+      .overlay a {
+        font-size: 20px;
+      }
+    
+      .overlay .closebtn {
+        position: absolute;
+        top: 60%;
+        right: 40%;
+        font-size: 25px;
+      }
+    
+      .square {
+        width: 29%;
+        background: purple;
+        padding-bottom: 30%;
+        float: left;
+        margin: 1%;
+        border: #232323 solid;
+        border-radius: 100%;
+      }
+    
+      .helpBox {
+        top: 20%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 70%;
+        left: 15%;
+        float: right;
+        margin-top: 2rem;
+      }
+    
+      #closeHelpBTN {
+        position: absolute;
+        top: 100%;
+        right: 23%;
+        width: 55%;
+        font-size: 25px;
+        margin-top: 3rem;
+      }
+    
+      .overlay .gameMenu {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        transition: 0.3s;
+        top: 10%;
+        width: 40%;
+        left: 30%;
+        position: relative;
+      }
+    
+      .currentMode {
+        color: green;
+        border: green solid;
+        height: 20px;
+        left: 0.1rem;
+        font-size: 30px;
+        position: relative;
+      }
+    
+      .overlayContent {
+        position: absolute;
+        top: 30%;
+        width: 80%;
+        left: 10%;
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      #imgWin {
+        position: absolute;
+        top: 25%;
+        left: 22%;
+        width: 50%;
+        height: 40%;
+      }
+    
+      #imgPlayAgain {
+        position: absolute;
+        top: 70%;
+        left: 39%;
+        font-size: 25px;
+      }
+    
+      #imgLose {
+        position: absolute;
+        top: 16%;
+        left: 14%;
+        width: 70%;
+        height: 50%;
+      }
+    
+      .imgHeart {
+        width: 4%;
+        height: 10%;
+        margin-bottom: 1rem;
+      }
+    
+      .inputStyle {
+        padding-top: 0.1rem;
+        color: white;
+      }
+    
+      #customLifes {
+        width: 15%;
+      }
+    
+      #customNum {
+        width: 15%;
+      }
+}
+
+/*iPhone6/7/8 iOS11, iPhone X/XS iOS 12*/
+@media screen and (max-width: 375px) and (min-width: 361px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    font-size: 25px;
+  }
+
+  .square {
+    width: 29%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1%;
+    border: #232323 solid;
+    border-radius: 100%;
+  }
+
+  .helpBox {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 70%;
+    left: 15%;
+    float: right;
+    margin-top: 2rem;
+  }
+
+  #closeHelpBTN {
+    position: absolute;
+    top: 100%;
+    right: 23%;
+    width: 55%;
+    font-size: 25px;
+    margin-top: 3rem;
+  }
+
+  .overlay .gameMenu {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    width: 10%;
+    transition: 0.3s;
+    top: 10%;
+    width: 100%;
+  }
+
+  .currentMode {
+    color: green;
+    border: green solid;
+    height: 20px;
+    left: 0.1rem;
+    font-size: 30px;
+    position: relative;
+  }
+
+  .overlayContent {
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #imgWin {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    width: 70%;
+    height: 50%;
+  }
+
+  #imgPlayAgain {
+    position: absolute;
+    top: 70%;
+    left: 29%;
+    font-size: 25px;
+  }
+
+  #imgLose {
+    position: absolute;
+    top: 16%;
+    left: 14%;
+    width: 70%;
+    height: 50%;
+  }
+
+  .imgHeart {
+    width: 5%;
+    height: 10%;
+    margin-bottom: 1rem;
+  }
+
+  .inputStyle {
+    padding-top: 0.1rem;
+    color: white;
+  }
+
+  #customLifes {
+    width: 15%;
+  }
+
+  #customNum {
+    width: 15%;
+  }
+}
+
+/*Galaxy S9/S9+*/
+@media screen and (max-width: 360px) {
+     .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 56%;
+    right: 30%;
+    font-size: 25px;
+  }
+
+  .square {
+    width: 29%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1%;
+    border: #232323 solid;
+    border-radius: 100%;
+  }
+
+  .helpBox {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 70%;
+    left: 15%;
+    float: right;
+    margin-top: 2rem;
+  }
+
+  #closeHelpBTN {
+    position: absolute;
+    top: 100%;
+    right: 23%;
+    width: 55%;
+    font-size: 25px;
+    margin-top: 3rem;
+  }
+
+  .overlay .gameMenu {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    width: 10%;
+    transition: 0.3s;
+    top: 10%;
+    width: 100%;
+  }
+
+  .currentMode {
+    color: green;
+    border: green solid;
+    height: 20px;
+    left: 0.1rem;
+    font-size: 30px;
+    position: relative;
+  }
+
+  .overlayContent {
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    left: 6%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #imgWin {
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    width: 70%;
+    height: 45%;
+  }
+
+  #imgPlayAgain {
+    position: absolute;
+    top: 66%;
+    left: 30%;
+    font-size: 25px;
+  }
+
+  #imgLose {
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    width: 70%;
+    height: 40%;
+  }
+
+  .imgHeart {
+    width: 5%;
+    height: 10%;
+    margin-bottom: 1rem;
+  }
+
+  .inputStyle {
+    padding-top: 0.1rem;
+    color: white;
+  }
+
+  #customLifes {
+    width: 15%;
+  }
+
+  #customNum {
+    width: 15%;
+  }
+}

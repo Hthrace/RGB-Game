@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <div id="menuNav" class="overlay"> 
+    <div class="helpContainer">
+      <div class="helpBox">
+        <h1>How to play</h1>
+        <p> A RGB value will be displayed at the top of the page.</p>
+        <p>A set of random colors will be displayed below that with one being the RGB value given to you. You must find
+          the color that corresponds with the RGB value and click it.</p>
+        <p> An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines
+          the intensity of the color as an integer between 0 and 255.</p>
+        <p>For example, rgb(0, 0, 255) is rendered as blue, because the blue parameter is set to its highest value (255)
+          and the others are set to 0.</p>
+        <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank" id="rgbLink">Click Here For The RGB
+          Color Model Wiki</a>
+        <button id="closeHelpBTN">Close</button>
+      </div>
+    </div>
+    <div class="overlayContent">
+      <p id="easy" class="gameMenu">Easy Mode</p>
+      <p id="hard" class="gameMenu">Hard Mode</p>
+      <p id="custom" class="gameMenu">Custom Mode</p>
+      <div class="inputStyle">
+        <label for="customNum">#Colors:</label>
+        <input type="number" id="customNum" placeholder="0">
+        <label for="customLifes">#Lifes:</label>
+        <input type="number" id="customLifes" placeholder="0">
+      </div>
+    </div>
+    <button class="closebtn" id="startGameBTN">Start Game</button>
+    <div class="imgContainer">
+      <img src="img/win.png" alt="You Win!" id="imgWin">
+      <img src="img/lose.png" alt="You Lose!" id="imgLose">
+      <button id="imgPlayAgain">Play again?</button>
+    </div>
+  </div>
+  <div id="menuContainer" class="menuStyle">
+    <div class="menuBox">
+      <div>
+        <h1 id="gameName">RGB Game</h1>
+      </div>
+      <div>
+        <h2 id="rgbCode"></h2>
+      </div>
+      <div id="lifeContainer">
+      </div>
+      <div>
+        <button id="modeBTN" class="buttonFont">Change Game Mode</button>
+        <button id="reset" class="buttonFont"> Restart </button>
+        <button id="helpBTN" class="buttonFont">Help!</button>
+      </div>
+    </div>
+  </div>
+  <div id="containerColors">
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
