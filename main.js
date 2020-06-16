@@ -330,7 +330,7 @@ function createLifes(num) {
     lifeCreate = document.createElement("img");
     lifeCreate.className = "imgHeart";
     document.querySelector("#lifeContainer").appendChild(lifeCreate);
-    lifeCreate.src = "/img/life.png";
+    lifeCreate.src = "img/life.png";
   }
 }
 
