@@ -1,13 +1,10 @@
 
 let colors = [];
-
 let difficulty = "hard";
 let easy = "easy";
 let hard = "hard";
 let custom = "custom";
-
 let lifes = 3;
-
 let easyBTN = document.querySelector("#easy");
 let hardBTN = document.querySelector("#hard");
 let customBTN = document.querySelector("#custom");
