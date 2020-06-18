@@ -25,9 +25,9 @@ let imgWin = document.querySelector("#imgWin");
 let imgLose = document.querySelector("#imgLose");
 let imgPlayAgain = document.querySelector("#imgPlayAgain");
 let inputStyle = document.querySelectorAll(".inputStyle");
-let easyToggle = 0;
-let hardToggle = 1;
-let customToggle = 0;
+let easyToggle = false;
+let hardToggle = true;
+let customToggle = false;
 let winLoseValue = 0;
 
 init();
@@ -71,9 +71,10 @@ function gameMode(num) {
 easyBTN.addEventListener("click", function () {
   difficulty = easy;
   easyBTN.classList.toggle("currentMode");
+  easyToggleCheck();
   hardToggleCheck();
   customToggleCheck();
-  easyToggle = 1;
+  return easyToggle = true;
 
 });
 
@@ -82,8 +83,9 @@ hardBTN.addEventListener("click", function () {
   difficulty = hard;
   hardBTN.classList.toggle("currentMode");
   easyToggleCheck();
+  hardToggleCheck();
   customToggleCheck();
-  hardToggle = 1
+  return hardToggle = true;
 });
 
 //Button sets game to custom mode.
@@ -91,9 +93,10 @@ customBTN.addEventListener("click", function () {
   difficulty = custom;
   customBTN.classList.toggle("currentMode");
   displayCustomInput();
+  customToggleCheck();
   easyToggleCheck();
   hardToggleCheck();
-  customToggle = 1;
+  return customToggle = true;
 });
 
 //Chooses array index number at random.
@@ -240,9 +243,9 @@ function modeMenu(num) {
 
 //Function to toggle and untoggle a menu option.
 function easyToggleCheck() {
-  if (easyToggle === 1) {
+  if (easyToggle === true) {
     easyBTN.classList.toggle("currentMode");
-    easyToggle = 0;
+    return easyToggle = false;
   } else {
     return;
   }
@@ -250,9 +253,9 @@ function easyToggleCheck() {
 
 //Function to toggle and untoggle a menu option.
 function hardToggleCheck() {
-  if (hardToggle === 1) {
+  if (hardToggle === true) {
     hardBTN.classList.toggle("currentMode");
-    hardToggle = 0;
+    return hardToggle = false;
   } else {
     return;
   }
@@ -260,10 +263,10 @@ function hardToggleCheck() {
 
 //Function to toggle and untoggle a menu option.
 function customToggleCheck() {
-  if (customToggle === 1) {
+  if (customToggle === true) {
     customBTN.classList.toggle("currentMode");
     displayCustomInput();
-    customToggle = 0;
+    return customToggle = false;
   } else {
     return;
   }
