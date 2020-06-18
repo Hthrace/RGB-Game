@@ -154,10 +154,10 @@ function squareSetup() {
     sqCreate.addEventListener("click", function () {
       let clickedColor = this.style.backgroundColor;
       if (clickedColor === pickedColor) {
-        return winner(clickedColor);
+        winner(clickedColor);
       } else {
         poorChoice();
-        this.style.backgroundColor = "#232323";
+        this.remove();
       }
     });
   });
