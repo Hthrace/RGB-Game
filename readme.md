@@ -29,7 +29,7 @@ set to 0. Click [RGB Color Model Wiki](https://en.wikipedia.org/wiki/RGB_color_m
 
 ## Authors
 
-* [Hthrace](https://github.com/Hthrace)
+* [Hailey Thrace](https://github.com/Hthrace)
 
 ## Art/Graphics
 
@@ -37,7 +37,7 @@ set to 0. Click [RGB Color Model Wiki](https://en.wikipedia.org/wiki/RGB_color_m
 
 ## License
 
-* This project is licensed under the MIT License - see the [LICENSE.md](PlaceHolder) file for details.
+* This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Hthrace/RGB-Game/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
