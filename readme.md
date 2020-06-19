@@ -1,4 +1,4 @@
-# RGB Color Game
+# RGB Game
 
 * A  RGB value will be displayed at the top of the page. A set of random colors will be displayed below that with one being the RGB value given to you. You must find the color
 that corresponds with the RGB value and click it. An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, blue) defines the intensity of
@@ -29,7 +29,7 @@ set to 0. Click [RGB Color Model Wiki](https://en.wikipedia.org/wiki/RGB_color_m
 
 ## Authors
 
-* [Hthrace] (https://github.com/Hthrace)
+* [Hthrace](https://github.com/Hthrace)
 
 ## Art/Graphics
 
